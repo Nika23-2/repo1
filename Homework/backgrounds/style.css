@@ -1,0 +1,22 @@
+body{
+    height: 1000px;
+    background-image: url(BG.jpg);
+    background-color: aquamarine;
+    background-repeat: no-repeat ;
+    background-position: center;
+}
+.fon{
+    font-size: 3em;
+
+}
+div{
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+}
+.grad1{
+    background-image: linear-gradient(to right, red,blue);
+}
+.grad2{
+    background-image: radial-gradient( red,blue)
+}
